@@ -184,12 +184,125 @@ h1{
 .base-text{
   display: inline-block;
   line-height: 1.5;
-  padding: 50px 20% 50px 20%;
+  padding: 60px 20% 60px 20%;
 }
-footer{
-  background-color: #05006A;
+.link-collection {
+background-color: #E6F2F5;
+padding: 5% 15% 5% 15%;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.choice,
+.fast {
+  padding: 20px 40px 20px 40px;
+}
+.choice li, 
+.fast li {
+  list-style: none;
+  font-weight: 500;
+  line-height: 2rem
+}
+h3 {
+  font-weight: 500;
+}
+.protect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 3%;
+  border-radius: 7px;
+  margin: 50px;
+}
+.protect h3 {
+  font-weight: 600;
+  margin-right: 10%;
+}
+.pas {
+  background-color: #FFF5B9;
+  padding: 25px;
+  border-radius: 7px;
+  line-height: 1.5rem;
+  font-size: 0.95rem;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+h4 {
+  font-size: 1.1rem;
+}
+.pas a {
+  font-weight: 600;
+}
+.pas p {
+  padding-bottom: 20px;
 }
 .news{
-  background-image: linear-gradient(0deg,#0096ff,#006106);
+  height: 1200px;
 }
-/* ------------base end-------------------- */
+.grad {
+  background-image: linear-gradient(0deg,#0096ff,#006106);
+  height: 30%;
+}
+.news h2 {
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 600;
+  padding: 50px;
+  text-align: center;
+}
+.articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.photo {
+  height: 400px;
+  width: 400px;
+  margin: 20px;
+  border-radius: 30px;
+  background-position: center center;
+  background-size: cover;
+}
+.first {
+  background-image: url(/images/1.jpg);
+}
+.second {
+  background-image: url(/images/2.jpg);
+}
+.third {
+  background-image: url(/images/4.jpeg);
+}
+.forth {
+  background-image: url(/images/3.jpg);
+}
+.photo h2 {
+  color: #fff;
+  text-align: left;
+  padding: 15px;
+  font-weight: 100;
+  height: 300px;
+  background: #00000033;
+  border-radius: 30px;
+}
+.white-text {
+  font-size: 1.1rem;
+}
+.for {
+  margin: 280px auto;
+  width: 80%;
+  min-height: 300px;
+  background-color: #49F1B9;
+  border-radius: 7px;
+
+}
+.for h2 {
+  color: #00006b;
+}
+footer {
+  background-color: #05006A;
+  height: 300px;
+}
