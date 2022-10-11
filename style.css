@@ -291,18 +291,38 @@ h4 {
 .white-text {
   font-size: 1.1rem;
 }
-.for {
+.voor {
   margin: 280px auto;
   width: 80%;
-  min-height: 300px;
+  min-height: 350px;
   background-color: #49F1B9;
   border-radius: 7px;
-
 }
-.for h2 {
+.for {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+.voor h2 {
   color: #00006b;
+}
+.button-link {
+  border: 2px solid rgba(0,0,107,.3);
+  padding: 14px 28px 14px 28px;
+  margin: 12px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bolder;
 }
 footer {
   background-color: #05006A;
   height: 300px;
+  color: #fff;
+  
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
 }
