@@ -5,6 +5,7 @@
 }
 body{
   height: 100vh;
+  margin: 0 auto;
   font-family: 'Akkurat', Arial, sans-serif; 
   color: #00006b
 }
@@ -14,14 +15,14 @@ body main{
   flex-grow: 1;
   flex-shrink: 0; 
 }
-header{
+/* header{
   align-items: center;
-}
+  margin: 0 auto;
+
+} */
 .navbar {
   width: 70%;
-  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
-  margin-left: 180px;
-  margin-top: 10px;
+  margin: 0 auto;
 }
 .nav-container {
   display: flex;
@@ -134,7 +135,7 @@ header{
   width: 220px;
   position: absolute;
   top: 25px;
-  left: 40%;
+  left: 30%;
 }
 /* -------------------------main--------------------------------- */
 .base-strip{
@@ -317,12 +318,79 @@ h4 {
   font-weight: bolder;
 }
 footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-end;
   background-color: #05006A;
   height: 300px;
+  width: 100%;
   color: #fff;
-  
+  /* opacity: 0.5; */
+  /* margin: 0 auto; */
 }
 footer a {
   text-decoration: none;
   color: #fff;
+}
+.follow,
+.menu-footer{
+  height: 100px;
+  /* margin-top: 150px; */
+  padding: 30px;
+  border: 2px solid black;
+  
+  
+}
+.menu-footer ul li {
+list-style: none;
+display: inline;
+padding: 20px;
+font-size: 1.1rem;
+}
+@media (max-width:667px) {
+  .menu-footer ul li {
+    display: block;
+  }
+  footer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    padding: 10px;
+  }
+  .menu-footer ul li {
+    font-size: 0.8rem;
+  }
+  h4 {
+    font-size: 0.9rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2,
+  .news .voor h2,
+  .news .grad h2 {
+    font-size: 1.2rem;
+  }
+  .news .photo h2 {
+    font-size: 1rem;
+  }
+  .voor a {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .logo {
+    width: 50%;
+  }
 }
