@@ -42,7 +42,7 @@ body main{
 .nav-container {
   display: block;
   position: relative;
-  height: 65px;
+  height: 70px;
 }
 .nav-container .checkbox {
   position: absolute;
@@ -69,7 +69,7 @@ body main{
 }
 .nav-container .hamburger-lines .line {
   display: block;
-  height: 4px;
+  height: 3px;
   width: 100%;
   border-radius: 10px;
   background: #0e2431;
@@ -86,26 +86,32 @@ body main{
   transition: transform 0.4s ease-in-out;
 }
 .navbar .menu-items {
-  padding-top: 120px;
-  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  padding-top: 80px;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 1);
+  background-color: #FFF5B9;
+  opacity: 0.9;
   height: 100vh;
   width: 100%;
   transform: translate(-150%);
   display: flex;
   flex-direction: column;
   margin-left: -40px;
-  padding-left: 50px;
+  padding-left: 40%;
   transition: transform 0.5s ease-in-out;
-  text-align: center;
 }
 .navbar .menu-items li {
   margin-bottom: 1.2rem;
   font-size: 1.5rem;
   font-weight: 500;
 }
+.navbar .menu-items li a {
+  font-family: 'Akkurat', Arial, sans-serif; 
+  color: #00006b
+
+}
 .login {
   position: absolute;
-  top: 20px;
+  top: 18px;
   right: 20px;
   color: #0e2431;
 }
@@ -128,7 +134,7 @@ body main{
   width: 50%;
   max-width: 230px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 23px;
 }
 /* -------------------------main--------------------------------- */
 .base-strip{
@@ -321,8 +327,6 @@ footer {
   height: 300px;
   width: 100%;
   color: #fff;
-  /* opacity: 0.5; */
-  /* margin: 0 auto; */
 }
 footer a {
   text-decoration: none;
@@ -330,15 +334,17 @@ footer a {
 }
 .follow,
 .menu-footer{
-  height: 100px;
-  /* margin-top: 150px; */
-  padding: 30px;
+  height: 150px;
+  padding: 20px;
 }
 .menu-footer ul li {
 list-style: none;
 display: inline;
 padding: 20px;
 font-size: 1.1rem;
+}
+h4 {
+  padding: 10px;
 }
 /* ~~~~~~~~~~~~~~~~ MEDIA ~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width:667px) {
@@ -350,6 +356,7 @@ font-size: 1.1rem;
     justify-content: flex-start;
     align-items: stretch;
     align-content: flex-start;
+    height: 350px;
   }
   .menu-footer ul li {
     font-size: 0.8rem;
@@ -387,3 +394,30 @@ font-size: 1.1rem;
     margin: 20px 10px;
   }
 }
+/* ~~~~~~~~~~~~~~~~~~~ Social networks~~~~~~~~~~~~~~~~~ */
+
+.social {display: inline-block;}
+.social a {
+	display: block;
+	width: 48px;
+	height: 48px;
+	margin: 0 10px 10px 0;
+	text-align: center;
+	color: #000;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 24px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+}
+.social a:hover {color: #fff;}
+.social svg {
+	margin-top: 7px;
+	width: 32px;
+	height: 32px;
+}
+.facebook a:hover {background: #3b5998;}
+.instagram a:hover {background: #3f729b;}
+.linkedin a:hover {background: #0e76a8;}
+.twitter a:hover {background: #00acee;}
+.youtube a:hover {background: #c4302b;}
+/* ~~~~~~~~~~~~ Social end ~~~~~~~~~~~*/
