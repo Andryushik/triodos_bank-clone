@@ -143,7 +143,7 @@ header .navbar .login a {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-image: url(/images/triodoshippo_heroImageFullWidthSmallDesktop.jpeg);
+  background-image: url(images/triodoshippo_heroImageFullWidthSmallDesktop.jpeg);
   background-position: center center;
   background-size: cover;
   align-items: center;
@@ -275,16 +275,16 @@ h4 {
   background-size: cover;
 }
 .first {
-  background-image: url(/images/1.jpg);
+  background-image: url(images/1.jpg);
 }
 .second {
-  background-image: url(/images/2.jpg);
+  background-image: url(images/2.jpg);
 }
 .third {
-  background-image: url(/images/4.jpeg);
+  background-image: url(images/4.jpeg);
 }
 .forth {
-  background-image: url(/images/3.jpg);
+  background-image: url(images/3.jpg);
 }
 .photo h5 {
   color: #fff;
