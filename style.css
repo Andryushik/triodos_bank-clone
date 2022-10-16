@@ -261,8 +261,10 @@ h4 {
 }
 .articles {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
+  width: 100%;
+  overflow: auto; 
+  /* overflow: hidden; */
 }
 .photo {
   height: 400px;
