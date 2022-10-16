@@ -394,8 +394,7 @@ h4 {
     margin: 20px 10px;
   }
 }
-/* ~~~~~~~~~~~~~~~~~~~ Social networks~~~~~~~~~~~~~~~~~ */
-
+/* ~~~~~~~~~~~~~~~~~~~ Social icons ~~~~~~~~~~~~~~~~~ */
 .social {display: inline-block;}
 .social a {
 	display: block;
@@ -420,4 +419,4 @@ h4 {
 .linkedin a:hover {background: #0e76a8;}
 .twitter a:hover {background: #00acee;}
 .youtube a:hover {background: #c4302b;}
-/* ~~~~~~~~~~~~ Social end ~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~ Social icons end ~~~~~~~~~~~*/
