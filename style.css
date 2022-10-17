@@ -300,7 +300,7 @@ h4 {
 .white-text {
   font-size: 1.1rem;
 }
-.voor {
+.for {
   margin: 280px auto;
   width: 80%;
   min-height: 350px;
@@ -313,7 +313,7 @@ h4 {
   justify-content: center;
   align-content: space-between;
 }
-.voor h2 {
+.for h2 {
   color: #00006b;
 }
 .button-link {
@@ -391,14 +391,14 @@ h4 {
     font-size: 1.5rem;
   }
   h2,
-  .news .voor h2,
+  .news .for h2,
   .news .grad h2 {
     font-size: 1.2rem;
   }
   .news .photo h5 {
     font-size: 1rem;
   }
-  .voor a {
+  .for a {
     font-size: 1rem;
   }
   p {
