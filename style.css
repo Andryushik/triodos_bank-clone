@@ -366,6 +366,9 @@ h4 {
 .menu-footer li:hover {
   font-weight: bolder;
 }
+.menu-footer a:focus {
+  text-decoration: underline;
+}
 /* ~~~~~~~~~~~~~~~~ MEDIA ~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width:667px) {
   .menu-footer ul li {
