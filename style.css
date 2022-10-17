@@ -93,7 +93,6 @@ body main{
   transform: translate(-150%);
   display: flex;
   flex-direction: column;
-  margin-left: -10px;
   padding-left: 40%;
   transition: transform 0.5s ease-in-out;
   position: relative;
@@ -135,8 +134,10 @@ header .navbar .login a {
 .logo {
   width: 50%;
   max-width: 230px;
-  margin: 0 auto;
-  padding: 23px;
+  margin: 4px auto;
+  /* margin-top: 20px;
+  margin-bottom: 16px; */
+  padding: 17px;
 }
 /* -------------------------main--------------------------------- */
 .base-strip{
