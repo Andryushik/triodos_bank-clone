@@ -262,6 +262,8 @@ h4 {
 .articles {
   display: flex;
   flex-direction: row;
+  width: 100%; 
+  overflow: auto; /*265 and 266 added for photos horizontal scroll*/
   justify-content: flex-start;
 }
 .photo {
@@ -269,7 +271,7 @@ h4 {
   width: 300px;
   margin: 20px;
   border-radius: 30px;
-  flex: 0 0 300px;
+  flex: 0 0 300px;  /* added for keep original size not shrink */
   background-position: center center;
   background-size: cover;
 }
